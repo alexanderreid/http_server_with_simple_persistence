@@ -1,0 +1,34 @@
+{
+  "name": "http_server_with_simple_persistence",
+  "version": "0.1.0",
+  "description": "HTTP Sever with Simple Persistence",
+  "main": "server.js",
+  "directories": {
+    "test": " ./node_modules/gulp/bin/gulp.js test"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderreid/http_server_with_simple_persistence.git"
+  },
+  "author": "Alex Reid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderreid/http_server_with_simple_persistence/issues"
+  },
+  "homepage": "https://github.com/alexanderreid/http_server_with_simple_persistence#readme",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3"
+  }
+}
